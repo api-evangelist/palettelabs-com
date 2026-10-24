@@ -1,25 +1,84 @@
 aid: palettelabs-com
+
 name: Palette 2
-description: 'Palette 2 is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by y-combinator) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://palettelabs.com/media/palette-homepage-og.jpg
+
+description: 'Palette 2, operating as Palette, is a multimodal content creation platform that lets users generate, edit, and storyboard media across formats such as text, images, video, and audio. The service provides a unified canvas for marketing, education, entertainment, and brand storytelling, leveraging AI-driven tools to accelerate production and ensure consistency across audiences.'
+
 url: https://raw.githubusercontent.com/api-evangelist/palettelabs-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- AI
+- Media
+- ContentCreation
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- y-combinator
+
 common:
+- type: Compliance
+  url: https://palettelabs.com/security
+- type: LLMsTxt
+  url: llms/palettelabs-com-llms.txt
+- type: Hosts
+  url: hosts/palettelabs-com-hosts.yml
+- type: Vendors
+  url: vendors/palettelabs-com-vendors.yml
+- type: TermsOfService
+  url: https://palettelabs.com/terms-of-service
+- type: SignUp
+  url: https://palettelabs.com/signup
+- type: Security
+  url: https://palettelabs.com/security
+- type: PrivacyPolicy
+  url: https://palettelabs.com/privacy-policy
+- type: TrustCenter
+  url: security/palettelabs-com-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/palettelabs-com-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/palettelabs-com-domain-security.yml
 - type: Website
   url: https://palettelabs.com/
+
+apis: []
+
+x-backed-by:
+- y-combinator
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-24'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://palettelabs.com/
+    status: 200
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

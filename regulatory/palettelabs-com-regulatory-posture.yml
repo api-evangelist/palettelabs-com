@@ -1,0 +1,32 @@
+generated: '2026-10-24'
+method: searched
+source: https://palettelabs.com
+signals:
+  subprocessors:
+    - source: https://palettelabs.com/subprocessors
+      http_status: 200
+      fetched: true
+      quote: "Each sub-processor is bound by contract to protect data, to process it only for the purposes we direct, and, where they handle prompts or content, not to use it to train their general models."
+      section: "About This List"
+      note: "Palette lists categories of sub‑processors and states contractual safeguards, indicating transparency about third‑party data handling."
+  ai_transparency:
+    - source: https://palettelabs.com/privacy
+      http_status: 200
+      fetched: true
+      quote: "We do not use Customer Data or Outputs to train any model, our own or a third party's."
+      section: "AI Processing"
+      note: "Explicitly denies using user data to train AI models, providing AI transparency."
+  data_residency:
+    - source: https://palettelabs.com/subprocessors
+      http_status: 200
+      fetched: true
+      quote: "Hosting, compute, storage, and managed database for the platform ... United States"
+      section: "Current Sub-processors"
+      note: "Indicates data is hosted in the United States, revealing data residency."
+  data_subject_request:
+    - source: https://palettelabs.com/privacy
+      http_status: 200
+      fetched: true
+      quote: "If you appear in content a customer uploads or generates, and you have questions about it, please contact that customer, who controls the material. We will assist them in responding."
+      section: "Customer Data"
+      note: "Provides a process for data subjects to inquire about their personal data, indicating a data subject request mechanism."

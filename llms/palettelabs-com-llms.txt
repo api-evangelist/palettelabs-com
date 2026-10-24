@@ -1,0 +1,30 @@
+# Palette
+
+> Palette is a self-improving multimodal studio. Generate, edit, and storyboard video, images, and audio on one canvas, shaped for every audience and format, from one source of truth.
+
+This file is generated from the site's source content. It is a curated index for AI assistants, not a crawler permissions file. For crawler permissions, see `/robots.txt`.
+
+## Core Pages
+
+- [Home](https://palettelabs.com/): Primary overview of the site.
+- [Product overview](https://palettelabs.com/product): Palette's media engine and its products: Cut, Flow, Trace, Brush, and API/MCP.
+- [Cut](https://palettelabs.com/product/cut): Your editing assistant, from brief to first cut, with its demo film.
+- [Flow](https://palettelabs.com/product/flow): Your marketing workflow, from brand to published batch, with its demo film.
+- [Trace](https://palettelabs.com/product/trace): Long-form video understanding: describe a moment and get timecoded source clips for the edit.
+- [Brush](https://palettelabs.com/product/brush): Palette's code-to-video renderer, built into Palette Studio's workflows.
+- [API and MCP](https://palettelabs.com/product/api): Packaged for your engineers: REST API and hosted MCP server documentation.
+
+## Models
+
+- [Seedance 2.5](https://palettelabs.com/model/seedance): Watch a real Seedance 2.5 clip, then make your own on Palette. Nothing else here handles real-world physics as well. It runs up to 30 seconds in one take and makes its own sound.
+- [Google Veo 3](https://palettelabs.com/model/veo): Watch a real Google Veo 3 clip, then make your own on Palette. It gives the most realistic picture of any model here, and it is the only one that makes people really speak.
+- [Kling 3 Pro](https://palettelabs.com/model/kling): Watch a real Kling 3 Pro clip, then make your own on Palette. It is the best model here for fast action and big camera moves, at 1080p.
+- [MiniMax H3](https://palettelabs.com/model/minimax): Watch a real MiniMax H3 clip, then make your own on Palette. It keeps the same person looking and sounding the same from shot to shot and video to video, in 2K.
+- [Flux 3](https://palettelabs.com/model/flux): Watch a real Flux 3 clip, then make your own on Palette. It can cut between several shots inside one clip, makes its own sound, and runs up to 20 seconds at 1080p.
+- [Wan 3](https://palettelabs.com/model/wan): Watch a real Wan 3 clip, then make your own on Palette. It runs up to 30 seconds at 1080p with its own sound, and it keeps a crowded scene looking consistent the whole way through.
+- [Google Omni Flash](https://palettelabs.com/model/omni): Watch a real Google Omni Flash clip, then make your own on Palette. It is the cheap option that still comes with proper sound, for everyday clips up to 10 seconds.
+
+## Discovery
+
+- [Sitemap](https://palettelabs.com/sitemap-index.xml): Complete search-engine sitemap, if available.
+- [Robots policy](https://palettelabs.com/robots.txt): Crawler permissions for automated agents.
